@@ -1,6 +1,6 @@
 ## MCO2 Notebook Changes
 
-Updated notebook: `Kodiak_Knowers_Option1_SMMH_MCO2_Review.ipynb`
+Updated notebook: `Kodiak_Knowers_MCO2.ipynb`
 
 ### Research Direction
 
@@ -67,17 +67,17 @@ Applied one-way ANOVA to compare mean focus difficulty across time groups.
 
 Results:
 
-- `F = 7.890`
-- `p = 0.000441`
+- `F = 8.593`
+- `p = 0.000225`
 - The null hypothesis of equal means was rejected.
 
 Added Bonferroni-adjusted pairwise t-tests:
 
-- Low versus moderate: significant
-- Low versus high: significant
-- Moderate versus high: not significant
+- Low versus moderate: not significant (p ≈ 0.03163, exceeds adjusted α ≈ 0.0167)
+- Low versus high: significant (p ≈ 0.00005)
+- Moderate versus high: not significant (p ≈ 0.18401)
 
-The primary difference occurred between low-use respondents and the two higher-use groups.
+The primary difference occurred between low-use respondents and high-use respondents; moderate use was not clearly distinguishable from either group.
 
 ### Statistical Test 2: Purposeless Use and Focus
 
@@ -133,9 +133,9 @@ Also expanded:
 
 The MCO2 review notebook currently contains:
 
-- 72 total cells
-- 24 code cells
-- 2,351 Markdown words
+- 71 total cells
+- 25 code cells
+- 2,534 Markdown words
 - 6 figures
 - No Markdown cell exceeding 100 words
 - No saved execution errors
