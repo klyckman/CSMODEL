@@ -1,4 +1,4 @@
-## MCO2 Notebook Changes
+ ## MCO2 Notebook Changes
 
 Updated notebook: `Kodiak_Knowers_MCO2.ipynb`
 
@@ -134,8 +134,8 @@ Also expanded:
 The MCO2 review notebook currently contains:
 
 - 71 total cells
-- 25 code cells
-- 2,534 Markdown words
+- 24 code cells
+- 2,716 Markdown words
 - 6 figures
 - No Markdown cell exceeding 100 words
 - No saved execution errors
